@@ -23,7 +23,7 @@ header{
     display: flex;
     justify-content: space-between;
     background-color: #bdc3c7;
-    padding: 0px 7px;
+    padding: 7px 7px;
 }
 .header_2 {
     background-color: rgba(255,255,255,0.9);

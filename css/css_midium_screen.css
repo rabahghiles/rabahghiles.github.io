@@ -1,5 +1,12 @@
 /** TABLETTE RESPONSIVE DESIGN **/
 @media only screen and ( min-width : 480px ){
+    /**  Header  **/
+    .header_logo {
+        font-size: 1.9em;
+    }
+    .header_icon_menu a {
+        font-size: 1.8em;
+    }
     
     /** SECTION 1 (home)**/
     .section_1 {
@@ -21,6 +28,9 @@
         width: 50%;
         margin-left: 25%;
         margin-top: 15px;
+    }
+    .header_2 div a {
+        text-align: center;
     }
     
     

@@ -1,0 +1,155 @@
+/** TABLETTE RESPONSIVE DESIGN **/
+@media only screen and ( min-width : 480px ){
+    
+    /** SECTION 1 (home)**/
+    .section_1 {
+        height: 500px;
+        background-position: center;
+        background-position: 0px 30px;
+    }
+    .section1_div1 {
+       text-align: center;
+       padding: 0px 0%;
+    }
+    .section1_div1 h1 {
+        font-size: 3em;
+    }
+    .section1_div1 h2 {
+        font-size: 2em;
+    }
+    .section1_div1 a {
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 15px;
+    }
+    
+    
+    /** SECTION 2 (a propos de moi)**/
+    .section_2 {
+        background-size: cover;
+    }
+    .section2_div1 {
+        height: 220px;
+    }
+    .section2_div1 img {
+        height: 180px;
+        width: 181px;
+        border-radius: 20px;
+    }
+    .section2_div2 {
+       text-align: center;
+        padding: 0px 15%;
+    }
+    .section2_div2 h1 {
+        font-size: 2.5em;
+    }
+    .section2_div2 h4 {
+    font-size: 1.2em;
+}
+    .section2_div2 h2 {
+        font-size: 2.5em;
+     }
+    .section2_div2 h3 {
+        font-size: 1.3em;
+    }
+    .section2_div2 p:nth-child(5) {
+        margin-top: 10px;
+        font-size: 0.9em;
+    }
+    
+    
+    /** SECTION 3 (skills)**/
+    .section3_skills {
+        padding:0;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .section3_div2_div,.section3_div1_div{
+        margin-top: 30px;
+    }
+    .section3_div{
+        display: flex;
+        justify-content: space-around;
+    }
+    .divSkills{
+        width: 180px;
+        height: 180px;
+    }
+    .span1 {
+        line-height:180px;
+        width:180px;
+    }
+    .span2{
+    font-size: 1.2em;
+    }
+    
+    /** SECTION 4 ( profil académique )**/
+    .section_4 {
+        text-align: center;
+    }
+    .section4_titre {
+        font-size: 1.7em;
+    }
+    .section4_div ul {
+        list-style: none;
+    }
+    .section4_div  ul h3 {
+        font-size: 1.3em;
+    }
+    .section4_div  ul h2 {
+        font-size: 1em;
+    }
+    .section4_div ul span:nth-child(3) {
+        font-size: 0.8em;
+    }
+    .dot {
+        font-size: 1.1em;
+    }
+    
+    /** SECTION 5 ( un peut plus sur moi ) **/
+    .section_5 {
+        padding-top: 20px;
+        height: 600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0px 0;
+    }
+    .section5_titre {
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .control a {
+        font-size: 1.7em;
+    }
+    .slides{
+        margin-top: 7%;
+    }
+    .slide h2 {
+        font-size: 1.8em;
+        padding-left: 20%;
+    }
+    .slide ul {
+        padding-left: 30%;
+    }
+    .slide ul li {
+        margin-top: 5px;
+    }
+    .slide ul li span {
+        color: rgba(0,0,0,0.8);
+        font-size: 1.2em;
+    }
+     
+    /** footer **/
+    .footer_smoot{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .footer_rs, .footer_contact {
+        min-width: 400px;
+    }
+    .copyright p{
+        text-align: center;
+    }
+}
+

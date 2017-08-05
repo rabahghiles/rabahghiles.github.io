@@ -1,0 +1,248 @@
+/** LARGE SCREEN RESPONSIVE DESIGN  **/ 
+@media only screen and ( min-width : 1024px ){
+    .header{
+        padding: 0px 3% ;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 0.5px solid rgba(112,112,112,0.5);
+    }
+    .header_color {
+        background-color: #fff;
+    }
+    .header_logo {
+        font-size: 1.5em;
+        font-weight: 600;
+        color: #d35400;
+    }
+    .header_icon_menu a {
+        display: none;
+    }
+    .header_1 {
+        display: block;
+        background-color: inherit;
+        padding: 0px;
+        font-size: 2em;
+        height: 60px;
+    }
+    .header_2 {
+        background-color: inherit;
+        height: auto;
+        display: flex;
+    }
+    .header_2 div a {
+        display: inline-block;
+        height: 100%;
+        padding: 0px 20px;
+        line-height: 60px;
+        color: #95a5a6;
+        transition: 0.4s;
+    }
+    .header_2 div a:hover {
+        color: #d35400;
+    }
+    
+    
+    /** SECTIN 1 (home)**/
+    .section {
+        height: 100vh;
+    }
+    .section_1 {
+        background-position: 0px 0px;
+    }
+    .section1_div1 {
+        padding: 0 15%;
+        text-align: inherit;
+        top: 35%;
+    }
+    .section1_div1 h1 {
+        font-size: 6em;
+    }
+    .section1_div1 h2 {
+        font-size: 3.3em;
+     }
+    .section1_div1 a {
+        width: 45%;
+        min-width: 300px;
+        margin-left: 7%;
+        margin-top: 20px;
+        padding: 12px;
+        color: #d35400;
+        font-size: 1.5em;
+     }
+    
+    
+    /** SECTION 2 (a propos de moi)**/
+    .section_2 {
+        display: flex;
+        justify-content: space-between;
+        text-align: inherit;
+        padding: 0px;
+        margin: 0px;
+    }
+    .section2_div1 {
+        width: 145%;
+        height: 100%;
+        padding: 0px 0;
+        line-height: 58;
+    }
+    .section2_div1 img {
+        height: 300px;
+        width: 300px;
+        border-radius: 250px;
+        border: 1px solid #d35400;
+    }
+    .section2_div2 {
+        margin-top: 18%;
+        text-align: inherit;
+        padding: 0% 5%;
+        width: 70%;
+    }
+    .section2_div2 h1 {
+        font-size: 3em;
+    }
+    .section2_div2 h2 {
+        margin-top: 8px;
+        font-size: 2.8em;
+    }
+    .section2_div2 h3 {
+        font-size: 1.2em;
+        
+    }
+    .section2_div2 p:nth-child(5) {
+        margin-top: 12px;
+        font-size: 0.9em;
+        font-style: italic;
+        font-weight: 600;
+        color: rgba(0,0,0,0.8);
+    }
+    
+    /** SECTION 3 (Skills) **/
+    .section3_skills {
+        text-align: inherit;
+        padding: 0px 3%;
+        font-size: 2.2em;
+        color: #7f8c8d;
+    }
+    .section_3_rounded {
+        margin-top: 30px;
+        display: flex;
+    }
+    .section3_div {
+        width: 100%;
+    }
+    .divSkills{
+        width: 240px;
+        height: 240px;
+    }
+    .span1 {
+        line-height:240px;
+        width:240px;
+        font-size:2em;
+        margin-left:5px;
+    }
+    .span2{
+        font-size: 2em;
+    }
+    
+    
+    /** SECTION 4 ( profil académique )**/
+    .section_4 {
+        display: flex;
+    }
+    .section4_div{
+        margin-top: 10%;
+        text-align: left;
+        padding-right: 4%;
+    }
+    .section4_div:first-child {
+        flex-grow: 2;
+    }
+    .section4_div:nth-child(2){
+        flex-grow: 0;
+        padding: 2px 50px;
+        padding-left: 0;
+    }
+    .section4_titre {
+        font-size: 2.5em;
+    }
+    .section4_div  ul h3 {
+        font-size: 1.4em;
+    }
+    .section4_div  ul h2 {
+        font-size: 1em;
+    }
+    .section4_div ul span:nth-child(3) {
+        font-size: 0.8em;
+    }
+    .dot {
+    font-size: 1.4em;
+    margin-right: 2px;
+}
+    
+    
+    /** SECTION 5 ( un peut plus sur moi ) **/
+    .section_5 {
+        background-position: 0;
+    }
+    .section5_titre {
+        padding-left: 5%;
+        font-size: 1.7em;
+        text-align: left;
+    }
+    .control a {
+        display: inline-block;
+        height: 80px;
+        line-height: 90px;
+        font-size: 2em;
+        background: rgba(255,255,255,0.4);
+        border-radius: 3px;
+    }
+    .slides{
+        width: 100%;
+        height: 65%;
+        margin-top: 5%;
+    }
+    .slide{
+        padding: 3% 0px 0px 0px;
+        width: 44%;
+        height: 100%;
+        margin-left: 33%;
+    }
+    .slide h2 {
+        font-size: 2em;
+        padding-left: 15%;
+    }
+    .slide ul {
+        margin-top: 8px;
+        padding-left: 25%;
+    }
+    .slide ul li {
+        margin-top: 8px;
+    }
+    .slide ul li span {
+        font-size: 1.3em;
+    }
+    
+    /** footer **/
+    footer {
+        padding-bottom: 7%;
+    }
+    .footer_titre {
+        font-size: 1.5em;
+    }
+    .footer_rs ,.footer_contact {
+        margin: 0;
+        margin-top: 20px;
+    }
+    .footer_rs h2,.footer_contact h2 {
+        font-size: 1.4em;
+    }
+    .footer_contact ul {
+        margin-top: 10px;
+    }
+    .footer_rs ul{
+        margin-top: 20px;
+        font-size: 1.8em;
+    }
+    
+}

@@ -1,0 +1,341 @@
+*{margin: 0;padding: 0;box-sizing: border-box;text-decoration: none}
+body {
+    font-family: 'montserrat', sans-serif;
+    overflow-x: hidden;
+}
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.header_logo {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #d35400;
+}
+.header_icon_menu a {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #d35400;
+}
+.header_1 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: #bdc3c7;
+    padding: 0px 7px;
+}
+.header_2 {
+    background-color: rgba(255,255,255,0.9);
+    height: 0;
+    overflow: hidden;
+}
+.header_2_actif {
+    height: auto;
+}
+.header_2 div a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 5px;
+    color: #95a5a6;
+    transition: 0.4s;
+}
+.header_2 div a:hover {
+    color: #d35400;
+}
+
+/** SECTION 1 (home)**/
+.section_1 {
+    height: 500px;
+    background-image: url(../images/startup-593327_960_720.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: -150px 2px;
+    position: relative;
+}
+.section1_div1 {
+    padding: 0px 1.5%;
+    position:relative;top: 200px;
+}
+.section1_div1 h1 {
+    color: #d35400;
+    font-size: 2.7em;
+}
+.section1_div1 h2 {
+    color: #fff;
+    font-size: 1.7em;
+    font-family: 'Julee';
+}
+.section1_div1 a {
+    display: block;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+    color: #d35400;
+    border: 1px solid #d35400;
+    transition: 0.28s;
+}
+.section1_div1 a:hover {
+    color: #fff;
+    background-color: #d35400;
+}
+
+
+/** SECTION 2 (a propos de moi)**/
+.section_2 {
+    background-image: url(../images/macbook_camera.jpg);
+    background-attachment: fixed;
+    padding-bottom: 20px;
+}
+.section2_div1 {
+    padding: 20px 0;
+    height: 190px;
+    text-align: center;
+}
+.section2_div1 img {
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    border: 1px solid #d35400;
+}
+.section2_div2 {
+    margin-top: 15px;
+    padding: 3%;
+}
+.section2_div2 h1 {
+    font-size: 2em;
+    color: #7f8c8d;
+}
+.section2_div2 h4 {
+    color: #7f8c8d;
+}
+.section2_div2 h2 {
+    margin-top: 8px;
+    font-size: 1.9em;
+    color: #d35400;
+}
+.section2_div2 h3 {
+    font-size: 1em;
+    color: #d35400;
+}
+.section2_div2 p:nth-child(5) {
+    margin-top: 8px;
+    font-size: 0.8em;
+    font-style: italic;
+    font-weight: 600;
+    color: rgba(0,0,0,0.8);
+}
+
+/**SECTION 3 (skills) **/
+.section_3 {
+    padding: 20px 0%;
+}
+.section3_skills {
+    padding: 0px 3%;
+    color: #7f8c8d;
+}
+.section_3_rounded {
+    text-align: center;
+}
+.section3_div2_div,.section3_div1_div{
+    text-align: center;
+    margin-top: 15px;
+}
+.divSkills{
+    width: 160px;
+    height: 160px;
+    margin: auto;
+    position: relative;
+}
+canvas {
+    display: block;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.span1 {
+    color:#d35400;
+    display:block;
+    line-height:160px;
+    text-align:center;
+    width:160px;
+    font-size:1.8em;
+    margin-left:10px;
+}
+.span2{
+    font-weight: 600;
+    color: #7f8c8d;
+}
+
+
+/** SECTION 4 ( profil académique )**/
+.section_4 {
+    background: rgba(0,0,0,0.1);
+    padding: 1% 0% 7% 3%;
+}
+.section4_titre {
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #d35400;
+    margin-top: 25px;
+}
+.section4_div  ul {
+    margin-top: 0px;
+}
+.section4_div  ul li {
+    margin-top: 10px;
+}
+.section4_div  ul h3 {
+    color: #7f8c8d; 
+    font-size: 1.1em;
+}
+.section4_div  ul h2 {
+    font-size: 0.9em;
+    color: rgba(0,0,0,0.9)
+}
+.section4_div ul span:nth-child(3) {
+    color: #d35400;
+    font-size: 0.7em;
+}
+.dot {
+    margin-right: 2px;
+}
+
+
+/** SECTION 5 ( un peut plus sur moi ) **/
+.section_5 {
+   position: relative;
+    height: 400px;
+    background-color: rgba(14,25,12,0.3);
+    background-image: url(../images/background.jpg);
+    padding: 3%;
+    padding-top: 8%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: -300px 0;
+}
+.section5_titre {
+    color: #7f8c8d;
+    color: #d35400;
+    font-size: 0.7em;
+}
+.control {
+    position: absolute;
+    top: 50%;
+}
+.control_2 {
+    right: 3%;
+}
+.next,.preview{
+    color: #d35400;
+    font-size: 1.3em;
+}
+.control a {
+    z-index: 1;
+}
+.slides{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 60%;
+    margin-top: 20%;
+}
+.slide{
+    padding: 5% 0px 0px 0px;
+    position: absolute;
+    height: 100%;
+    width: 60%;
+    margin-left: 20%;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 3px;
+    overflow: hidden;
+    display: none;
+}
+.show_slide{
+    display: block;
+}
+.slide h2 {
+    color: #d35400;
+    font-size: 1.3em;
+    padding-left: 10%;
+}
+.slide ul {
+    margin-top: 8px;
+    padding-left: 25%;
+    color: #d35400;
+}
+.slide ul li {
+    margin-top: 3px;
+}
+.slide ul li span {
+    color: rgba(0,0,0,0.9)
+}
+
+footer {
+    background-color: #ecf0f1;
+    padding: 3%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.footer_titre h1 {
+    font-size: 1.6em;
+    color: #d35400;
+}
+.footer_smoot {
+    margin-top: 16px;
+    padding: 0px 1%;
+}
+.footer_contact {
+    margin-bottom: 16px;
+}
+.footer_rs h2,.footer_contact h2 {
+    font-size: 1.2em;
+    color: #7f8c8d;
+    color: #d35400;
+    margin-bottom: 6px;
+}
+.footer_rs ul, .footer_contact ul {
+    padding: 0px 0.5%;
+    list-style: none;
+    color: #7f8c8d
+}
+.footer_contact ul span {
+    color: #d34500;
+    position: relative;
+    top: 3px;
+    font-size: 1.2em;
+    margin-right: 2px;
+}
+.footer_rs ul {
+    padding: 0px 25px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5em;
+}
+.footer_rs ul li {
+    margin-right: 8%;
+}
+.footer_rs ul li a {
+    color: #7f8c8d; 
+    transition: 0.28s;
+}
+.footer_rs ul li:last-child a {
+    font-weight: 600;
+    position: relative;
+    top: -4px;
+}
+.footer_rs ul li a:hover {
+    color: #d35400;
+}
+.copyright p{
+    padding: 10px;
+    background-color: #7f8c8d;
+    font-size: 0.8em;
+    color: #fff;
+}
+.copyright p span {
+    color: #d34500;
+}

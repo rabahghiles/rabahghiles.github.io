@@ -6,6 +6,7 @@ $(document).ready(function(){
     smootScroll();
     verifScrool();
     colorMenu();
+    goToButton();
 })
 
 /** function pour la barr de scrool div slide **/
@@ -131,9 +132,24 @@ function smootScroll(){
     $(".goto").click(function(e){
         e.preventDefault();
 	    var the_id = $(this).attr("href");
+        goTo(the_id);
+        
+    })
+}
+
+/** function goto**/
+function goTo(element){
         $('html, body').animate({
-		      scrollTop:$("#"+the_id).offset().top
+		      scrollTop:$("#"+element).offset().top
         }, 'slow');
+}
+
+/** function button a propos **/
+function goToButton(){
+    $("#gotoaprops").click(function(e){
+        e.preventDefault();
+        var the_id = $(this).attr("href");
+        goTo(the_id);
     })
 }
 
@@ -152,7 +168,6 @@ function verifScrool(){
      if( $(window).scrollTop() > position ){
            $("#header").addClass("header_color");
      }else {
-           console.log("remove");
            $("#header").removeClass("header_color");
      }
 }
